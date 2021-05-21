@@ -1,0 +1,10 @@
+{
+    "Food": "lch",
+    "schedule": "In the Afternoon",
+    "foodItems": [
+        { "nameofFood": "Chana Kulcha", "price": 12, "calories": 112 },
+        { "nameofFood": "Dal Makhani", "price": 23, "calories": 278 },
+        { "nameofFood": "Biryani", "price": 30, "calories": 241 },
+        { "nameofFood": "Uttapam", "price": 5, "calories": 92 }
+    ]
+}

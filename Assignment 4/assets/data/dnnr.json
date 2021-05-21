@@ -1,0 +1,10 @@
+{
+    "Food": "dn",
+    "schedule": "At Night",
+    "foodItems": [
+        { "nameofFood": "Khichdi", "price": 16, "calories": 320 },
+        { "nameofFood": "Makki di Roti, Sarson da Saag", "price": 40, "calories": 200 },
+        { "nameofFood": "Dum Aloo Lakhnavi", "price": 20, "calories": 330 },
+        { "nameofFood": "Litti Chokha", "price": 30, "calories": 290 }
+    ]
+}

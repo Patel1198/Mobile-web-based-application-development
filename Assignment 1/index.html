@@ -1,0 +1,110 @@
+<!--
+    Name: Jay Patel
+	Student Id: 991592044
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Assignment 1 By Jay Patel </title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>Assignment #1 By Jay Patel: 991592044</header>
+    <br>
+    <div class="main">
+        <img src="Images/mypic.jpeg">
+        <h2>Sales Representative </h2>
+        <hr>
+
+        <h2 id="hea">Buy A Paint</h2>
+        <div class="container">
+            <form action="quote.html" method="POST">
+                <div class="row">
+                    <div class="col-1">
+                        <label for="custName">Customer's name: </label>
+                    </div>
+                    <div class="col-2">
+                        <input type="text" name="custName" id="custName" placeholder="Your Name..." autofocus required>
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-1">
+                        <label for="email">Email address: </label>
+                    </div>
+                    <div class="col-2">
+                        <input type="email" name="email" id="email" placeholder="Your Email address..." required>
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-1">
+                        <label for="roomType">Type of room: </label>
+                    </div>
+                    <div class="col-2">
+                        <input type="text" name="roomType" id="roomType" placeholder="Your Roomtype..." required>
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-1">
+                        <label for="width">Width (In Feet): </label>
+                    </div>
+                    <div class="col-2">
+                        <input type="number" name="width" id="width" placeholder="Width..." required>
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-1">
+                        <label for="length">Length (In Feet): </label>
+                    </div>
+                    <div class="col-2">
+                        <input type="number" name="length" id="length" placeholder="length..." required>
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-1">
+                        <label for="color">Choose a colour: </label>
+                    </div>
+                    <div class="col-2">
+                        <input type="color" name="color" id="color">
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-1">
+                        <label for="paint">Type of Paint: </label>
+                    </div>
+                    <div class="col-2">
+                        <select name="paint" id="paint">
+                            <option value="standard">Standard paint($24.99/Can)</option>
+                            <option value="premium">Premium paint($39.99/Can)</option>
+                        </select>
+
+                    </div>
+                </div>
+                <div class="row">
+                    <br>
+                    <input id="buton" type="submit" onclick="getData()" value="Get Price :)">
+                </div>
+            </form>
+        </div>
+        <br>
+
+
+    </div>
+
+    <footer>
+        &#169 pate2516 - Davis Campus
+    </footer>
+
+    <script src="javascript/main.js"></script>
+</body>
+
+</html>

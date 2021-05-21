@@ -1,0 +1,10 @@
+{
+    "Food": "bf",
+    "schedule": "In the Morning",
+    "foodItems": [
+        { "nameofFood": "Aloo Paratha", "price": 10, "calories": 222 },
+        { "nameofFood": "Egg Sandwich", "price": 8, "calories": 230 },
+        { "nameofFood": "McMuffin", "price": 6, "calories": 300 },
+        { "nameofFood": "Dosa", "price": 15, "calories": 133 }
+    ]
+}
